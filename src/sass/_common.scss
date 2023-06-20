@@ -1,1 +1,13 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+.container {
+  max-width: 880px;
+  padding: 0;
+  margin: 0 auto;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+

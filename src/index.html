@@ -1,14 +1,189 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
+    <title>Price_One</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./AkzidenzGroteskBoldCond.otf" />
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="wrapper">
+      <header class="header container">
+        <div class="header__top">
+          <div class="header__top-group">
+            <a href="#" class="header__top-lang active">en</a>
+            <a href="#" class="header__top-lang">ukr</a>
+            <a href="#" class="header__top-lang">esp</a>
+          </div>
+          <a href="#" class="header__top-link">Online ordering</a>
+          <div class="burger__open">
+            <span class="burger__span"></span>
+          </div>
+
+          <div class="burger__menu">
+            <nav class="burger__nav">
+              <ul class="burger__group">
+                <li class="burger__list">
+                  <a href="#" class="burger__link">About</a>
+                </li>
+                <li class="burger__list">
+                  <a href="#" class="burger__link">Menu</a>
+                </li>
+                <li class="burger__list">
+                  <a href="#" class="burger__link">Service info</a>
+                </li>
+                <li class="burger__list">
+                  <a href="#" class="burger__link">gallery</a>
+                </li>
+                <li class="burger__list">
+                  <a href="#" class="burger__link">Friends</a>
+                </li>
+                <li class="burger__list">
+                  <a href="#" class="burger__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="header__bottom">
+          <nav class="header__nav nav">
+            <ul class="nav__group">
+              <li class="nav__list"><a href="#" class="nav__link">About</a></li>
+              <li class="nav__list"><a href="#" class="nav__link">Menu</a></li>
+              <li class="nav__list">
+                <a href="#" class="nav__link">Service info</a>
+              </li>
+            </ul>
+            <div class="header__logo">
+              <a href="#" class="logo__link">
+                <span class="logo__text">NYC'S</span>
+                <img src="./images/img/logo.png" alt="logo" class="logo__img" />
+                <span class="logo__text">Catering</span>
+              </a>
+            </div>
+            <ul class="nav__group">
+              <li class="nav__list">
+                <a href="#" class="nav__link">gallery</a>
+              </li>
+              <li class="nav__list">
+                <a href="#" class="nav__link">Friends</a>
+              </li>
+              <li class="nav__list">
+                <a href="#" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__content">
+          <h1 class="hero__title">Private catering</h1>
+          <p class="hero__text">
+            Treat your guests to a beautifully plated dinner, hand-crafted
+            canapes or a casual BBQ.
+          </p>
+          <div class="hero__buttons">
+            <a href="" class="hero__button active">Get a quote</a>
+            <a href="" class="hero__button">View menus</a>
+          </div>
+        </div>
+      </section>
+      <section class="menu container">
+        <ul class="menu__group">
+          <li class="menu__list">
+            <a href="" class="menu__link"
+              ><img
+                src="./images/img/6c5f9cc8b99ba313230d0d9043c814b0(1).png"
+                alt="menu"
+                class="menu__img"
+              />
+              <div class="menu__content">
+                <h3 class="menu__title">Corporate catering</h3>
+                <p class="menu__text">
+                  We are able to serve events from 2 to 2000 guests and always
+                  reasonable prices.
+                </p>
+                <button class="menu__button">Get a quote</button>
+
+                <a href="" class="menu__view">View menus</a>
+              </div>
+            </a>
+          </li>
+          <li class="menu__list">
+            <a href="" class="menu__link"
+              ><img
+                src="./images/img/9e29116ab324b12c68f6f9be04de917d.png"
+                alt="menu"
+                class="menu__img"
+              />
+              <div class="menu__content">
+                <h3 class="menu__title">Private catering</h3>
+                <p class="menu__text">
+                  Fresh, seasonal and simple cuisine. Food is our business and
+                  our passion.
+                </p>
+                <button class="menu__button">Get a quote</button>
+                <a href="" class="menu__view">View menus</a>
+              </div>
+            </a>
+          </li>
+          <li class="menu__list">
+            <a href="" class="menu__link"
+              ><img
+                src="./images/img/mini_charlotte_with_blackberries_and_yogurt_mousse_by_kupenska-d6cccxv.png"
+                alt="menu"
+                class="menu__img"
+              />
+              <div class="menu__content">
+                <h3 class="menu__title">Wedding catering</h3>
+                <p class="menu__text">
+                  We use only the best organic ingredients and gluten and dairy
+                  free cooking.
+                </p>
+                <button class="menu__button">Get a quote</button>
+                <a href="" class="menu__view">View menus</a>
+              </div>
+            </a>
+          </li>
+          <li class="menu__list">
+            <a href="" class="menu__link"
+              ><img
+                src="./images/img/depositphotos_1895622-Healthy-Eat.png"
+                alt="menu"
+                class="menu__img"
+              />
+              <div class="menu__content">
+                <h3 class="menu__title">Online Ordering</h3>
+                <p class="menu__text">
+                  Successful catering is about organisation, high quality
+                  service, and great food.
+                </p>
+                <button class="menu__button">Get a quote</button>
+                <a href="" class="menu__view">View menus</a>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
