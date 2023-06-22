@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 15px;
+  
+  @media (max-width:620px) {
+    flex-direction: column-reverse;
+ 
+  }
+}
+.footer__text {
+  font-size: 15px;
+  color: #4d4d4d;
+
+  & a {
+    text-decoration: underline;
+  }
+}
+.footer__link {
+
+  @media (max-width:620px) {
+    margin-bottom: 20px;
+    
+  }
+}

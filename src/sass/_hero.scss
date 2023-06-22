@@ -7,6 +7,14 @@
   background: url('../images/img/6c5f9cc8b99ba313230d0d9043c814b0.png') no-repeat;
   background-size: cover;
 
+  &.next {
+    background: url('../images/img/Layer_3.png') no-repeat;
+    background-size: cover;
+  }
+
+  @media (max-width: 665px) {
+    display: none;
+  }
 }
 .hero__content {
   flex: 1 1 50%;
@@ -19,6 +27,10 @@
   color: #ffffff;
   letter-spacing: 5px;
   font-family: 'Bebas Neue', sans-serif;
+
+  &.whychoose {
+    text-align: end;
+  }
 }
 .hero__text {
   color: #ffffff;
@@ -28,7 +40,7 @@
 }
 .hero__buttons {
   display: flex;
-  @media (max-width: 860px) {
+  @media (max-width: 880px) {
     display: block;
   }
 }
@@ -41,13 +53,14 @@
   text-align: center;
   border: 1px solid #000;
   color: #fff;
+  background-color: #000;
   transition: all 0.3s ease 0s;
+  cursor: pointer;
 
   &:hover,
   &:focus {
-    border: 1px solid #fff;
-    background-color: transparent;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
   }
 &.active {
   color: #000;
@@ -61,7 +74,7 @@
   color: #fff;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 880px) {
   display: block;
 
   margin-bottom: 10px;
